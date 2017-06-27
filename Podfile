@@ -2,7 +2,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
 def ads_pods
-    pod 'GoogleAnalytics-iOS-SDK'
 end
 
 def debugging_pods
