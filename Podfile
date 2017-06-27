@@ -13,15 +13,19 @@ target 'iZurvive' do
     inhibit_all_warnings!
     ads_pods
     debugging_pods
+end
 
-    target 'iZurviveTests' do 
-        # Pods for testing
-        inherit! :search_paths        
-    end
+target 'iZurviveTests' do 
+    # Pods for testing
+    inhibit_all_warnings!
+    ads_pods
+    debugging_pods     
+end
 
-    target 'iZurviveUITests' do
-        # Pods for UI testing
-        inherit! :search_paths
-        pod 'HSTestingBackchannel', :configuration => ['Testing']
-    end
+target 'iZurviveUITests' do
+    # Pods for UI testing
+    inhibit_all_warnings!
+    ads_pods
+    debugging_pods
+    pod 'HSTestingBackchannel', :configuration => ['Testing']
 end
