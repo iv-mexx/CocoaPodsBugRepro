@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		219B4DE41F0279B0006DF5D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B4DE31F0279B0006DF5D2 /* AppDelegate.m */; };
+		219B4DE71F0279B0006DF5D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B4DE61F0279B0006DF5D2 /* ViewController.m */; };
+		219B4DEA1F0279B0006DF5D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219B4DE81F0279B0006DF5D2 /* Main.storyboard */; };
+		219B4DEC1F0279B0006DF5D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219B4DEB1F0279B0006DF5D2 /* Assets.xcassets */; };
+		219B4DEF1F0279B0006DF5D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 219B4DED1F0279B0006DF5D2 /* LaunchScreen.storyboard */; };
+		219B4DF21F0279B0006DF5D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B4DF11F0279B0006DF5D2 /* main.m */; };
+		219B4DFC1F0279B0006DF5D2 /* iZurviveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B4DFB1F0279B0006DF5D2 /* iZurviveTests.m */; };
+		219B4E071F0279B0006DF5D2 /* iZurviveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219B4E061F0279B0006DF5D2 /* iZurviveUITests.m */; };
+		2834D1C586F66F8B9CD4894E /* libPods-iZurvive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAAD225FA2D688DFC5052E3 /* libPods-iZurvive.a */; };
+		83D7E43BC29B53B5467EDF34 /* libPods-iZurviveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E9887DE39BF2973A375F71 /* libPods-iZurviveTests.a */; };
+		EEC545640B4818B38474D78E /* libPods-iZurviveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C78569B48DA0E094FF64FB79 /* libPods-iZurviveUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219B4DF81F0279B0006DF5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219B4DD71F0279B0006DF5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219B4DDE1F0279B0006DF5D2;
+			remoteInfo = iZurvive;
+		};
+		219B4E031F0279B0006DF5D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 219B4DD71F0279B0006DF5D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 219B4DDE1F0279B0006DF5D2;
+			remoteInfo = iZurvive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		219B4DDF1F0279B0006DF5D2 /* iZurvive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZurvive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B4DE21F0279B0006DF5D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		219B4DE31F0279B0006DF5D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		219B4DE51F0279B0006DF5D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		219B4DE61F0279B0006DF5D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		219B4DE91F0279B0006DF5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		219B4DEB1F0279B0006DF5D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		219B4DEE1F0279B0006DF5D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		219B4DF01F0279B0006DF5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219B4DF11F0279B0006DF5D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		219B4DF71F0279B0006DF5D2 /* iZurviveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iZurviveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B4DFB1F0279B0006DF5D2 /* iZurviveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iZurviveTests.m; sourceTree = "<group>"; };
+		219B4DFD1F0279B0006DF5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		219B4E021F0279B0006DF5D2 /* iZurviveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iZurviveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		219B4E061F0279B0006DF5D2 /* iZurviveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iZurviveUITests.m; sourceTree = "<group>"; };
+		219B4E081F0279B0006DF5D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BAAD225FA2D688DFC5052E3 /* libPods-iZurvive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iZurvive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E9887DE39BF2973A375F71 /* libPods-iZurviveTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iZurviveTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7851ABF367D25E60B2E7FC52 /* Pods-iZurvive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurvive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive.debug.xcconfig"; sourceTree = "<group>"; };
+		79E05CB7B57F59F5AA039B4B /* Pods-iZurvive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurvive.release.xcconfig"; path = "Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive.release.xcconfig"; sourceTree = "<group>"; };
+		7B59C00226266945F7518193 /* Pods-iZurviveUITests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurviveUITests.testing.xcconfig"; path = "Pods/Target Support Files/Pods-iZurviveUITests/Pods-iZurviveUITests.testing.xcconfig"; sourceTree = "<group>"; };
+		7FB5952CD2175FB14F698643 /* Pods-iZurviveTests.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurviveTests.testing.xcconfig"; path = "Pods/Target Support Files/Pods-iZurviveTests/Pods-iZurviveTests.testing.xcconfig"; sourceTree = "<group>"; };
+		850B1E807CC24255E94A32D9 /* Pods-iZurviveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurviveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iZurviveUITests/Pods-iZurviveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		988CEC2FA747B5F853F5796A /* Pods-iZurviveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurviveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iZurviveUITests/Pods-iZurviveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C78569B48DA0E094FF64FB79 /* libPods-iZurviveUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iZurviveUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23598316BB173237BCD655F /* Pods-iZurviveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurviveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iZurviveTests/Pods-iZurviveTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB8FD32E3F7A17115E350E8C /* Pods-iZurvive.testing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurvive.testing.xcconfig"; path = "Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive.testing.xcconfig"; sourceTree = "<group>"; };
+		F1140379AD7E09D5FD89244E /* Pods-iZurviveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iZurviveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iZurviveTests/Pods-iZurviveTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		219B4DDC1F0279B0006DF5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2834D1C586F66F8B9CD4894E /* libPods-iZurvive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B4DF41F0279B0006DF5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D7E43BC29B53B5467EDF34 /* libPods-iZurviveTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B4DFF1F0279B0006DF5D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC545640B4818B38474D78E /* libPods-iZurviveUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085C38A9218CB444ABCF68EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BAAD225FA2D688DFC5052E3 /* libPods-iZurvive.a */,
+				40E9887DE39BF2973A375F71 /* libPods-iZurviveTests.a */,
+				C78569B48DA0E094FF64FB79 /* libPods-iZurviveUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		219B4DD61F0279B0006DF5D2 = {
+			isa = PBXGroup;
+			children = (
+				219B4DE11F0279B0006DF5D2 /* iZurvive */,
+				219B4DFA1F0279B0006DF5D2 /* iZurviveTests */,
+				219B4E051F0279B0006DF5D2 /* iZurviveUITests */,
+				219B4DE01F0279B0006DF5D2 /* Products */,
+				E66F99A1737E126078190948 /* Pods */,
+				085C38A9218CB444ABCF68EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		219B4DE01F0279B0006DF5D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				219B4DDF1F0279B0006DF5D2 /* iZurvive.app */,
+				219B4DF71F0279B0006DF5D2 /* iZurviveTests.xctest */,
+				219B4E021F0279B0006DF5D2 /* iZurviveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219B4DE11F0279B0006DF5D2 /* iZurvive */ = {
+			isa = PBXGroup;
+			children = (
+				219B4DE21F0279B0006DF5D2 /* AppDelegate.h */,
+				219B4DE31F0279B0006DF5D2 /* AppDelegate.m */,
+				219B4DE51F0279B0006DF5D2 /* ViewController.h */,
+				219B4DE61F0279B0006DF5D2 /* ViewController.m */,
+				219B4DE81F0279B0006DF5D2 /* Main.storyboard */,
+				219B4DEB1F0279B0006DF5D2 /* Assets.xcassets */,
+				219B4DED1F0279B0006DF5D2 /* LaunchScreen.storyboard */,
+				219B4DF01F0279B0006DF5D2 /* Info.plist */,
+				219B4DF11F0279B0006DF5D2 /* main.m */,
+			);
+			path = iZurvive;
+			sourceTree = "<group>";
+		};
+		219B4DFA1F0279B0006DF5D2 /* iZurviveTests */ = {
+			isa = PBXGroup;
+			children = (
+				219B4DFB1F0279B0006DF5D2 /* iZurviveTests.m */,
+				219B4DFD1F0279B0006DF5D2 /* Info.plist */,
+			);
+			path = iZurviveTests;
+			sourceTree = "<group>";
+		};
+		219B4E051F0279B0006DF5D2 /* iZurviveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				219B4E061F0279B0006DF5D2 /* iZurviveUITests.m */,
+				219B4E081F0279B0006DF5D2 /* Info.plist */,
+			);
+			path = iZurviveUITests;
+			sourceTree = "<group>";
+		};
+		E66F99A1737E126078190948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7851ABF367D25E60B2E7FC52 /* Pods-iZurvive.debug.xcconfig */,
+				EB8FD32E3F7A17115E350E8C /* Pods-iZurvive.testing.xcconfig */,
+				79E05CB7B57F59F5AA039B4B /* Pods-iZurvive.release.xcconfig */,
+				F1140379AD7E09D5FD89244E /* Pods-iZurviveTests.debug.xcconfig */,
+				7FB5952CD2175FB14F698643 /* Pods-iZurviveTests.testing.xcconfig */,
+				D23598316BB173237BCD655F /* Pods-iZurviveTests.release.xcconfig */,
+				850B1E807CC24255E94A32D9 /* Pods-iZurviveUITests.debug.xcconfig */,
+				7B59C00226266945F7518193 /* Pods-iZurviveUITests.testing.xcconfig */,
+				988CEC2FA747B5F853F5796A /* Pods-iZurviveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		219B4DDE1F0279B0006DF5D2 /* iZurvive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B4E0B1F0279B0006DF5D2 /* Build configuration list for PBXNativeTarget "iZurvive" */;
+			buildPhases = (
+				C33620A2E9A7A6226AF62B83 /* [CP] Check Pods Manifest.lock */,
+				219B4DDB1F0279B0006DF5D2 /* Sources */,
+				219B4DDC1F0279B0006DF5D2 /* Frameworks */,
+				219B4DDD1F0279B0006DF5D2 /* Resources */,
+				2268591A2BEED954E13693CD /* [CP] Embed Pods Frameworks */,
+				31CF5EB994794C05AD3D4004 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iZurvive;
+			productName = iZurvive;
+			productReference = 219B4DDF1F0279B0006DF5D2 /* iZurvive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		219B4DF61F0279B0006DF5D2 /* iZurviveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B4E0E1F0279B0006DF5D2 /* Build configuration list for PBXNativeTarget "iZurviveTests" */;
+			buildPhases = (
+				F5652EF9B12FADDFB28ECF1F /* [CP] Check Pods Manifest.lock */,
+				219B4DF31F0279B0006DF5D2 /* Sources */,
+				219B4DF41F0279B0006DF5D2 /* Frameworks */,
+				219B4DF51F0279B0006DF5D2 /* Resources */,
+				FED6D89516D8BF32E7A887C3 /* [CP] Embed Pods Frameworks */,
+				37CAE06237E51C177FB6C81B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219B4DF91F0279B0006DF5D2 /* PBXTargetDependency */,
+			);
+			name = iZurviveTests;
+			productName = iZurviveTests;
+			productReference = 219B4DF71F0279B0006DF5D2 /* iZurviveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		219B4E011F0279B0006DF5D2 /* iZurviveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 219B4E111F0279B0006DF5D2 /* Build configuration list for PBXNativeTarget "iZurviveUITests" */;
+			buildPhases = (
+				503800DE014935AAAD87ED1D /* [CP] Check Pods Manifest.lock */,
+				219B4DFE1F0279B0006DF5D2 /* Sources */,
+				219B4DFF1F0279B0006DF5D2 /* Frameworks */,
+				219B4E001F0279B0006DF5D2 /* Resources */,
+				DEC7D998252907AE02B46936 /* [CP] Embed Pods Frameworks */,
+				F032AA5AA09895E5F18D540B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				219B4E041F0279B0006DF5D2 /* PBXTargetDependency */,
+			);
+			name = iZurviveUITests;
+			productName = iZurviveUITests;
+			productReference = 219B4E021F0279B0006DF5D2 /* iZurviveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		219B4DD71F0279B0006DF5D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Innovaptor OG";
+				TargetAttributes = {
+					219B4DDE1F0279B0006DF5D2 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					219B4DF61F0279B0006DF5D2 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 219B4DDE1F0279B0006DF5D2;
+					};
+					219B4E011F0279B0006DF5D2 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 219B4DDE1F0279B0006DF5D2;
+					};
+				};
+			};
+			buildConfigurationList = 219B4DDA1F0279B0006DF5D2 /* Build configuration list for PBXProject "iZurvive" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 219B4DD61F0279B0006DF5D2;
+			productRefGroup = 219B4DE01F0279B0006DF5D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				219B4DDE1F0279B0006DF5D2 /* iZurvive */,
+				219B4DF61F0279B0006DF5D2 /* iZurviveTests */,
+				219B4E011F0279B0006DF5D2 /* iZurviveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		219B4DDD1F0279B0006DF5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B4DEF1F0279B0006DF5D2 /* LaunchScreen.storyboard in Resources */,
+				219B4DEC1F0279B0006DF5D2 /* Assets.xcassets in Resources */,
+				219B4DEA1F0279B0006DF5D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B4DF51F0279B0006DF5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B4E001F0279B0006DF5D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2268591A2BEED954E13693CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-8/iOS/RevealServer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31CF5EB994794C05AD3D4004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/Appirater/Appirater.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/Mapbox-iOS-SDK@sputnik/Mapbox.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Internal/Common/MPAdBrowserController.xib",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseButtonX.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseButtonX@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCloseButtonX@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPCountdownTimer.html",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPDAAIcon.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPDAAIcon@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPDAAIcon@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPMutedBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPMutedBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPMutedBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPPlayBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPPlayBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPPlayBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPUnmutedBtn.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPUnmutedBtn@2x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MPUnmutedBtn@3x.png",
+				"${PODS_ROOT}/mopub-ios-sdk/MoPubSDK/Resources/MRAID.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZurvive/Pods-iZurvive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37CAE06237E51C177FB6C81B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZurviveTests/Pods-iZurviveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503800DE014935AAAD87ED1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iZurviveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33620A2E9A7A6226AF62B83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iZurvive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC7D998252907AE02B46936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZurviveUITests/Pods-iZurviveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F032AA5AA09895E5F18D540B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZurviveUITests/Pods-iZurviveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5652EF9B12FADDFB28ECF1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iZurviveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED6D89516D8BF32E7A887C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iZurviveTests/Pods-iZurviveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		219B4DDB1F0279B0006DF5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B4DE71F0279B0006DF5D2 /* ViewController.m in Sources */,
+				219B4DF21F0279B0006DF5D2 /* main.m in Sources */,
+				219B4DE41F0279B0006DF5D2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B4DF31F0279B0006DF5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B4DFC1F0279B0006DF5D2 /* iZurviveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		219B4DFE1F0279B0006DF5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219B4E071F0279B0006DF5D2 /* iZurviveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		219B4DF91F0279B0006DF5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219B4DDE1F0279B0006DF5D2 /* iZurvive */;
+			targetProxy = 219B4DF81F0279B0006DF5D2 /* PBXContainerItemProxy */;
+		};
+		219B4E041F0279B0006DF5D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 219B4DDE1F0279B0006DF5D2 /* iZurvive */;
+			targetProxy = 219B4E031F0279B0006DF5D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		219B4DE81F0279B0006DF5D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219B4DE91F0279B0006DF5D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		219B4DED1F0279B0006DF5D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				219B4DEE1F0279B0006DF5D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		219B4E091F0279B0006DF5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		219B4E0A1F0279B0006DF5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		219B4E0C1F0279B0006DF5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7851ABF367D25E60B2E7FC52 /* Pods-iZurvive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurvive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurvive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		219B4E0D1F0279B0006DF5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79E05CB7B57F59F5AA039B4B /* Pods-iZurvive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurvive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurvive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		219B4E0F1F0279B0006DF5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1140379AD7E09D5FD89244E /* Pods-iZurviveTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurviveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurviveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iZurvive.app/iZurvive";
+			};
+			name = Debug;
+		};
+		219B4E101F0279B0006DF5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23598316BB173237BCD655F /* Pods-iZurviveTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurviveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurviveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iZurvive.app/iZurvive";
+			};
+			name = Release;
+		};
+		219B4E121F0279B0006DF5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850B1E807CC24255E94A32D9 /* Pods-iZurviveUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurviveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurviveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iZurvive;
+			};
+			name = Debug;
+		};
+		219B4E131F0279B0006DF5D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988CEC2FA747B5F853F5796A /* Pods-iZurviveUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurviveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurviveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iZurvive;
+			};
+			name = Release;
+		};
+		219B4E141F027A5C006DF5D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Testing;
+		};
+		219B4E151F027A5C006DF5D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8FD32E3F7A17115E350E8C /* Pods-iZurvive.testing.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurvive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurvive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Testing;
+		};
+		219B4E161F027A5C006DF5D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB5952CD2175FB14F698643 /* Pods-iZurviveTests.testing.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurviveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurviveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iZurvive.app/iZurvive";
+			};
+			name = Testing;
+		};
+		219B4E171F027A5C006DF5D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B59C00226266945F7518193 /* Pods-iZurviveUITests.testing.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F6SD5MVY6N;
+				INFOPLIST_FILE = iZurviveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innovaptor.iZurviveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iZurvive;
+			};
+			name = Testing;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		219B4DDA1F0279B0006DF5D2 /* Build configuration list for PBXProject "iZurvive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B4E091F0279B0006DF5D2 /* Debug */,
+				219B4E141F027A5C006DF5D2 /* Testing */,
+				219B4E0A1F0279B0006DF5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		219B4E0B1F0279B0006DF5D2 /* Build configuration list for PBXNativeTarget "iZurvive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B4E0C1F0279B0006DF5D2 /* Debug */,
+				219B4E151F027A5C006DF5D2 /* Testing */,
+				219B4E0D1F0279B0006DF5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219B4E0E1F0279B0006DF5D2 /* Build configuration list for PBXNativeTarget "iZurviveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B4E0F1F0279B0006DF5D2 /* Debug */,
+				219B4E161F027A5C006DF5D2 /* Testing */,
+				219B4E101F0279B0006DF5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		219B4E111F0279B0006DF5D2 /* Build configuration list for PBXNativeTarget "iZurviveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				219B4E121F0279B0006DF5D2 /* Debug */,
+				219B4E171F027A5C006DF5D2 /* Testing */,
+				219B4E131F0279B0006DF5D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 219B4DD71F0279B0006DF5D2 /* Project object */;
+}
